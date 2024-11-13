@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowHerMind</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>EmpowHerMind: Your Safe Space for Mental Wellness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>
+                <li><a href="peer_support.html">Peer Support</a></li>
+                <li><a href="therapists.html">Therapists</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="images/hero.jpg" alt="Smiling woman with headphones">
+            <h2>Empower Yourself. Find Support. Feel Better.</h2>
+            <button onclick="window.location.href='chatbot.html'">Chat Now</button>
+            <button onclick="window.location.href='resources.html'">Explore Resources</button>
+        </section>
+        <section id="features">
+            <h3>What We Offer</h3>
+            <ul>
+                <li>24/7 Chat Support with EmpowHerBot</li>
+                <li>Educational Resources on Mental Health</li>
+                <li>Peer Support Groups Tailored to Your Needs</li>
+                <li>Find Licensed Therapists in Your Area</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EmpowHerMind. All rights reserved. | Privacy Policy | Terms of Use</p>
+    </footer>
+</body>
